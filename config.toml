@@ -1,0 +1,36 @@
+baseurl                 = "https://rrj.pl/"               # Your domain name. Must end with "/"
+languageCode            = "pl-PL"
+title                   = "Mam na imię Robert"
+theme                   = "sam"
+
+[params]
+    dateform            = "2-01-2006"
+    dateformfull        = "2-01-2006 15:04:05 CES"
+    favicon             = "/favicon.png"
+    pygmentsStyle       = "monokai"                     # https://help.farbox.com/pygments.html
+    pygmentsCodefences  = true
+    homepage            = "główna"                      # What to call the home page link
+    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    clickablePhotos     = true                          # Allow links to the full size images
+    footerText          = "Mam na imię Robert"
+
+# Metadata
+    description         = ""                            # Max 160 characters show in search results
+    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    primaryImage        = "/tn.jpg"                     # Image that shows on Twitter cards and OpenGraph links
+
+#[[params.mainMenu]]
+#   link = "/gallery"
+#   text = "zdjęcia"
+
+[[params.mainMenu]]
+    link = "/instagram"
+    text = "zdjęcia"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "kim jestem?"
+ 
+# [[params.mainMenu]]
+#    link = "/posts"
+#    text = "pisanie"

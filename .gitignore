@@ -1,0 +1,8 @@
+.env
+.s3_website.yaml
+themes/sam/exampleSite/**
+themes/sam.old/**
+themes/sam.new/**
+public/*
+data/instagram.json
+content/*
