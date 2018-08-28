@@ -1,11 +1,11 @@
-baseurl                 = "https://rrj.pl/"               # Your domain name. Must end with "/"
+baseurl                 = "https://rrj.pl/"             # Your domain name. Must end with "/"
 languageCode            = "pl-PL"
 title                   = "Mam na imię Robert"
 theme                   = "sam"
 
 [params]
     dateform            = "2-01-2006"
-    dateformfull        = "2-01-2006 15:04:05 CES"
+    dateformfull        = "2-01-2006 15:04 CES"
     favicon             = "/favicon.png"
     pygmentsStyle       = "monokai"                     # https://help.farbox.com/pygments.html
     pygmentsCodefences  = true
@@ -15,9 +15,9 @@ theme                   = "sam"
     footerText          = "Mam na imię Robert"
 
 # Metadata
-    description         = ""                            # Max 160 characters show in search results
+    description         = "rrj.pl - Mam na imię Robert" # Max 160 characters show in search results
     twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
-    primaryImage        = "/tn.jpg"                     # Image that shows on Twitter cards and OpenGraph links
+    primaryImage        = "/favicon.png"                     # Image that shows on Twitter cards and OpenGraph links
 
 #[[params.mainMenu]]
 #   link = "/gallery"
