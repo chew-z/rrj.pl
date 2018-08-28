@@ -1,5 +1,6 @@
 .env
 .s3_website.yaml
+hugo_s3.sh
 themes/sam/exampleSite/**
 themes/sam.old/**
 themes/sam.new/**
